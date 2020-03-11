@@ -207,6 +207,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests\IntroExport.cs" />
     <Compile Include="Tests\TupleVsOut.cs" />
     <Compile Include="Tests\Md5VsSha256.cs" />
     <EmbeddedResource Include="FrmMain.resx">
@@ -232,6 +233,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Test.BenchmarkTests.licenseheader" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

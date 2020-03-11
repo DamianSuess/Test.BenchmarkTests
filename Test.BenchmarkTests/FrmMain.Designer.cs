@@ -52,7 +52,7 @@
       this.SummaryBox.Multiline = true;
       this.SummaryBox.Name = "SummaryBox";
       this.SummaryBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-      this.SummaryBox.Size = new System.Drawing.Size(619, 170);
+      this.SummaryBox.Size = new System.Drawing.Size(613, 237);
       this.SummaryBox.TabIndex = 1;
       // 
       // BtnTupleVsOut
@@ -68,7 +68,7 @@
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-      this.ClientSize = new System.Drawing.Size(643, 223);
+      this.ClientSize = new System.Drawing.Size(637, 290);
       this.Controls.Add(this.BtnTupleVsOut);
       this.Controls.Add(this.SummaryBox);
       this.Controls.Add(this.BtnMd5Sha256);
