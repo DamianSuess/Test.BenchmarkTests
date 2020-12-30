@@ -22,7 +22,21 @@ namespace Test.BenchmarkTests
 
     private void BtnMd5Sha256_Click(object sender, EventArgs e)
     {
-      var summary = BenchmarkRunner.Run<Md5VsSha256>();
+      var summary = BenchmarkRunner.Run<Md5VsSha256Test>();
+
+      SummaryBox.Text = summary.ToString();
+    }
+
+    private void BtnMathFuncts_Click(object sender, EventArgs e)
+    {
+      var summary = BenchmarkRunner.Run<MathFunctionsTests>();
+
+      SummaryBox.Text = summary.AllRuntimes;
+    }
+
+    private void BtnExportTest_Click(object sender, EventArgs e)
+    {
+      var summary = BenchmarkRunner.Run<IntroExportTest>();
 
       SummaryBox.Text = summary.ToString();
     }

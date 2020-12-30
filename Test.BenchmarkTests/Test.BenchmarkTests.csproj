@@ -205,11 +205,13 @@
     <Compile Include="FrmMain.Designer.cs">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\MathFunctions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Tests\IntroExport.cs" />
+    <Compile Include="Tests\IntroExportTest.cs" />
+    <Compile Include="Tests\MathFunctionsTests.cs" />
     <Compile Include="Tests\TupleVsOut.cs" />
-    <Compile Include="Tests\Md5VsSha256.cs" />
+    <Compile Include="Tests\Md5VsSha256Test.cs" />
     <EmbeddedResource Include="FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </EmbeddedResource>

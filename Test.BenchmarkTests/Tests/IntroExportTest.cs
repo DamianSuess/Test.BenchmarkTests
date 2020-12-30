@@ -34,7 +34,7 @@ namespace Test.BenchmarkTests.Tests
   [XmlExporterAttribute.BriefCompressed]
   [XmlExporterAttribute.Full]
   [XmlExporterAttribute.FullCompressed]
-  public class IntroExport
+  public class IntroExportTest
   {
     private Random random = new Random(42);
 
@@ -44,5 +44,4 @@ namespace Test.BenchmarkTests.Tests
     [Benchmark]
     public void Sleep50Noisy() => Thread.Sleep(random.Next(100));
   }
-}
 }

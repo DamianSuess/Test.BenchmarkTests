@@ -27,7 +27,7 @@ namespace Test.BenchmarkTests.Tests
   [SimpleJob(RuntimeMoniker.Net472, baseline: true)]
   [SimpleJob(RuntimeMoniker.NetCoreApp30)]
   [MarkdownExporter, AsciiDocExporter, HtmlExporter, CsvExporter, RPlotExporter]
-  public class Md5VsSha256
+  public class Md5VsSha256Test
   {
     [Params(1000, 10000)]
     public int Size;
